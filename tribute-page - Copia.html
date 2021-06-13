@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"  />
+  <title>Tribute Page</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+
+      background-color: #074a4c;
+    }
+    header {
+      background-color: #f7622b;
+      padding: 15px;
+    }
+    .links-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      list-style: none;
+    }
+    header a, footer a {
+      color: white;
+    }
+    footer {
+      background-color: #f7622b;
+      padding: 15px;
+    }
+
+    #main {
+      background-image: linear-gradient(linen, aliceblue, linen);
+      width: 86%;
+      padding: 30px;
+      margin: auto;
+    }
+
+    section p::first-letter {
+      font-size: 200%;
+      color: #bb826b;
+    }
+
+    header, footer {
+      width: 89%;
+      margin: auto;
+    }
+
+    article {
+      padding: 10px 30px 30px 30px;
+    }
+    section {
+      padding: 20px;
+
+      font-size: 20px;
+      text-align: justify;
+      letter-spacing: 3px;
+      line-height: 1.3;
+    }
+    section p {
+      background-color: #87a9b51a;
+      margin: 40px;
+      padding: 20px;
+			
+			width: 85%;
+			/*min-width: 430px;*/
+    }
+
+    aside {
+      padding: 45px;
+    }
+    aside a {
+      color: #441a1a/*#9a3737;*/
+    }
+    #img-div {
+      padding-top: 35px;
+			
+			position: relative;
+    }
+		#img-div h3 {
+		font-size: 40px;
+			position: absolute;
+			bottom: 45px;
+			left: 30px;
+		}
+		#image {
+			width: 100%;
+			max-width: 1300px;
+			/*max-height: 850px;*/
+
+      display: block;
+      margin: auto;
+		}
+		#picture-mockup {
+			background-image: linear-gradient(45deg, BlanchedAlmond, #ff7f5078, BlanchedAlmond); /*coral*/
+			width: 100%;
+			height: 130px;
+		}
+
+	</style>
+
+</head>
+<body>
+  <header>
+      <nav>
+        <ul class="links-container">
+					<li><a target="_blank" href="https://musica-erudita.netlify.app/">A Música Erudita</a>
+					</li>
+					<li><a target="_blank" href="https://musica-erudita.netlify.app/coral-historico.html">Pequeno Histórico da Música Erudita</a> </li>
+					<li><a target="blank" href="https://musica-erudita.netlify.app/coral-mundo.html">A Música Erudita no Mundo</a></li>
+					<li><a target="_blank" href="https://musica-erudita.netlify.app/coral-brasil.html">A Música Erudita no Brasil</a></li>
+					<li><a target="_blank" href="https://musica-erudita.netlify.app/coral-historico-vozes.html">As Vozes no Coral Sinfônico</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main id="main">
+    <h1 id="title">Johann Sebastian Bach</h1>
+    <p>O construtor de harmonias</p>
+
+    <div id="img-div">
+      <figure>
+				<!--https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg-->
+        <img id="image" src="images/music-sheet-and-violin-small.jpg" alt="Imagem de uma partitura musical e um violino."  />
+				
+				<!--<div id="picture-mockup"></div>-->
+        
+				<figcaption id="img-caption">Incorporando novos elementos para uma fantástica harmonia!</figcaption>
+				
+				<h3>Johann Sebastian Bach</h3>
+      </figure>
+    </div>
+
+    <article id="tribute-info">
+
+      <section cite="https://pt.wikipedia.org/wiki/Johann_Sebastian_Bach">
+
+        <p>Johann Sebastian Bach é um dos grandes nomes da música mundial. Sendo considerado o maior compositor do período barroco e um dos maiores da história (alguns o qualificam como o maior e mais destacado), Bach foi um músico virtuoso, que guardava grande habilidade para diversos instrumentos (órgão, cravo e violino) e até no canto.</p>
+        <br  />
+        <p>Nascido na Alemanha, ele tinha como influências a música polifônica alemã do século XVII e referências como as de Bruhns e de Albioni. Muito conhecido pelos seus trabalhos e experiências com o estudo de harmonia, Bach se insere num período de de transição da música, na qual a antiga harmonia estritamente fundada em princípios matemáticos (retornando aos estudos de Ptágoras) começou a ser vista de maneira mais alegórica, simbólica e talvez expressiva. Ainda neste contexto de expressividade, num período em que a estruturação dos sons polifônicos era tratado horizontalmente, dando igual relevo a todas as vozes, Bach participa desta transformação em que a música começa também a se estruturar verticalmente, permitindo dar diferentes expressões e focos a cada voz a cada período, permitindo inclusive uma integração polifônica por meio da divisão melódica de uma base de vozes graves servindo apoio para as vozes mais altas. </p>
+        <span><a target="_blank" href="https://pt.wikipedia.org/wiki/Johann_Sebastian_Bach">Fonte: Wikipedia</a></span>
+      </section>
+
+      <section cite="https://www.britannica.com/topic/Toccata-and-Fugue-in-D-Minor-BWV-565">
+        <p>Continuando nos estudos de harmonia, numa célebre obra, "Toccata e Fuga", Bach apresenta ainda mais aprofundamentos na estruturação da sua música. Esta obra que é apresentada pela Enciclopédia Britânica como uma peça majestosa e de grande autoridade dramática, sendo não apenas a melhor fuga composta por Bach, mas a mais famosa dentre todos os compositores. Ela explica ainda que esta técnica chamada de "fuga" se caracteriza pelas interpolações repetidas de um tema principal em diferentes linhas melódicas (ou contrapontos).</p>
+        <span><a target="_blank" href="https://www.britannica.com/topic/Toccata-and-Fugue-in-D-Minor-BWV-565">Fonte: Bitannica</a></span>
+      </section>
+
+
+      <aside>
+
+        <h3><!--Acompanhe mais de toda a genialidade deste compositor em vídeos e em músicas:-->
+          <ul class="links-container">
+            <li><a id="tribute-link" target="_blank" href="https://musica-erudita.netlify.app/coral-mundo-bach.html">Vida e obra de J. S. Bach</a></li>
+            <li><a target="_blank" href="https://www.classicalradio.com/bach">Bach no ClassicalRadio.com</a></li>
+          </ul>
+        </h3>
+      </aside>
+
+    </article>
+
+  </main>
+
+  <footer>
+    <ul class="links-container">
+			<li><a target="_blank" href="https://musica-erudita.netlify.app/">A Música Erudita</a> </li>
+			<li><a target="_blank" href="https://musica-erudita.netlify.app/coral-historico.html">Pequeno Histórico da Música Erudita</a> </li>
+			<li><a target="blank" href="https://musica-erudita.netlify.app/coral-mundo.html">A Música Erudita no Mundo</a></li>
+			<li><a target="_blank" href="https://musica-erudita.netlify.app/coral-brasil.html">A Música Erudita no Brasil</a></li>
+			<li><a target="_blank" href="https://musica-erudita.netlify.app/coral-historico-vozes.html">As Vozes no Coral Sinfônico</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
